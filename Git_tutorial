@@ -1,0 +1,44 @@
+what is git ? 
+git is a free and open source Version Control System that
+What is version control ?
+it is when you upload a version of your code then updates it and uploads it again and again
+and then you will have access to all these versions which mean (version control)
+the benefit of it : is you know what you did when check bugs and go to any version of the code
+dome terminology : Directory -->> folder
+                   Terminlal/Command Line -->>interface(program) for writing text command(CLI--> Command Line interface)
+                   cd-->>change directory -->> equivelent to double click on a folder 
+                   Code Editor -->> you already know it 
+                   Repository-->> Project / Folder /place where your project is kept
+                   git -->> is the (tool) that tracks the changes of the code over time 
+                   github-->> is a place where you host your repositries
+                   online
+Git Commands : Clone-->>Bring a repository that is hosted somewhere like 
+               Github into a folder on your local machine 
+               add-->>Track your files and changes in git 
+               commit-->> save your files  and changes  into (git) 
+               push-->> apload git commits to a remote repo , like github
+               pull-->>Download changes from remote repo to your local machine
+the extension .md is short for mark down it is a langeuge you can use to format your file. 
+# in mark down means a main header
+1. you sign in the website githug
+2. you create new repository from the top left there is a plus sign 
+3. name your repository
+4. create a new md file 
+5. commit changes
+6. you will see the new changes
+7. click commits and you will the each commit you did 
+8. okay when you click on any of your commit you can see the status of your file. 
+ - if it is green with a plus sign that means these lines are added.
+ - if it is red with minus sign that means these lines are deleted. 
+ - anything that is white means no changes happened.
+9. now download git and bash git
+10. open VS code and write the following command 
+    - git clone -->> clone your repositry you have just created 
+    - la -ls-->> list every thing in the specefied dierectory including
+    hidden file and folders
+    - or if it is not working in my case (Get-ChildItem -Force)and this will 
+    show you the hidden folder that contains your commits
+    - ## is for subheader in md
+    - git status command -->> it tells you all the files that are created /updated or deleted but havent been saved in a commit yet, so if you created a file and it is not updated to your github it tells you that it is untracked file and to add it you use the following command 
+    - 
+    - 
